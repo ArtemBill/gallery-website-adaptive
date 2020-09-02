@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" media="(min-width: 768px)" href="css/tablet.css">
     <link rel="stylesheet" media="(min-width: 1200px)" href="css/desktop.css">
@@ -14,20 +16,39 @@
     <div class="container">
         <header>
             <section class="section-name">
-                <nav class="navbar">
-                    <input type="search" placeholder="Search">
-                    <a href="#">Gallery</a>
-                    <a href="#">Delivery</a>
-                    <a href="#">About me</a>
-                    <a href="#">Contacts</a>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Gallery <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Delivery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contacts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About me</a>
+                            </li>
+                        </ul>
+                    </div>
                 </nav>
-                <!-- /.navbar -->
                 <h2>Yana Mitlitska</h2>
             </section>
             <!-- /.section-name -->
 
             <section class="section-header-photo">
-                <img src="img/desktop_photo/photo.png" alt="Yana">
             </section>
             <!-- /.section-header-photo -->
         </header>
