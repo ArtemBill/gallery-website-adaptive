@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600;700&display=swap');
+
+
+body {
+    font-family: 'Comfortaa', cursive;
+    min-width: 320px;
+    color: #000000;
+}
+
+header,
+footer {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+    margin: 0;
+    padding: 0;
+}
+
+/*===========================header===============*/
+
+.main-header {
+    background: url(../img/desktop_photo/photo.png)  top center no-repeat;
+    background-size: 100%;
+    min-height: 600px;
+    position: relative;
+    z-index: -5;
+}
+
+.main-header .navbar-toggler{
+    color: #fff;
+}
+
+.main-header .nav-link {
+    color: #fff;
+    font-weight: 600;
+}
+.main-header .active::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    height: 1px;
+
+}
+
+.main-header h2 {
+    margin: auto;
+    text-align: center;
+    max-width: 600px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 27px;
+}
+
+
+
+/*===========================.section-biography===============*/
+
+.section-biography .container {
+    width: 80%;
+    background-color: #F4F0EC;
+    z-index: 5;
+    margin-top: -470px;
+}
+
+.section-biography span {
+    font-weight: 600;
+}
+
+.section-biography h3 {
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: -15px;
+}
+
+.section-biography p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.section-biography p, h3 {
+    padding: 20px;
+}
+
+
+
+/*===========================.section-gallery===============*/
+
+.section-gallery .nav-link{
+    border-bottom: 2px solid #41444D;
+    padding: 20px 0;
+}
+
+.section-gallery .nav-link.active {
+    border-bottom: 5px solid #AE3F3D;
+}
+
+
+
+
+/*===========================.section-gallery===============*/
+
+
+
+
+
+
+
+/*===========================footer===============*/
+
+footer ul li {
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 420px) {
+    .section-biography .container {
+        width: 80%;
+        background-color: #F4F0EC;
+        z-index: 5;
+        margin-top: -425px;
+    }
+}
+
+@media only screen and (min-width: 520px) {
+    .section-biography .container {
+        width: 80%;
+        background-color: #F4F0EC;
+        z-index: 5;
+        margin-top: -387px;
+    }
+}
+
+@media only screen and (min-width: 670px) {
+    .section-biography .container {
+        width: 80%;
+        background-color: #F4F0EC;
+        z-index: 5;
+        margin-top: -330px;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .main-header h2 {
+        font-size: 35px;
+        margin: 20px auto;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .main-header h2 {
+        font-size: 45px;
+        margin: 60px auto;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .section-biography .container-outer {
+        background: #fff;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    .main-header h2 {
+        font-size: 70px;
+        margin: 60px auto;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+

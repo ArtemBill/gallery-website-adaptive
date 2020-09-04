@@ -7,101 +7,101 @@
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
     integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/mobile.css">
-    <link rel="stylesheet" media="(min-width: 768px)" href="css/tablet.css">
-    <link rel="stylesheet" media="(min-width: 1200px)" href="css/desktop.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Yana's site</title>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <section class="section-name">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                        </form>
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Gallery <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Delivery</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contacts</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About me</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-                <h2>Yana Mitlitska</h2>
-            </section>
-            <!-- /.section-name -->
+    <header class="main-header">
+        <nav class="navbar navbar-expand-md">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
 
-            <section class="section-header-photo">
-            </section>
-            <!-- /.section-header-photo -->
-        </header>
-
-
-        <section class="section-biography">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h3>Yana Mitlitska</h3>
-                        <p>About Yana Mitlitska Yana</p>
-                        <p>Yana Mitlitska was born in Kyiv, Ukraine. After she had graduated from an Art School, 
-                        she founded an art studio. Being just a hobby at the beginning, it consumed Yana totally very fast.
-                        Nowadays Yana is skilled artist with about 10 years of experience in painting. 
-                        Currently she is working in an art studio in Kyiv.</p>
-                        <p>During her career she collaborated with famous interior designers and painted about 50 oil canvases 
-                        for appartments in famous Turkey Hotel "Orka Sunrise". In addition her art works presented
-                        on exhibitions in Ukraine, Ireland and Turkey. Being fully dedicated to the craft of painting,
-                        she creates unique art works and can follow your way of</p>
-                        <p>More ...</p>
-                    </div>
-                </div>
-                <!-- /.row -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Gallery<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Delivery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About me</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
             </div>
-            <!-- /.container -->
-        </section>
-        <!-- /.section-biography -->
+        </nav>
+        <h2>Mitlitska</h2>
+    </header>
 
 
-        <section class="section-gallery">
-            <div class="container">
-                <div class="row">
-                    <h3 class="col-12">Art Gallery</h3>
-                    <ul class="nav nav-tabs col-12" id="myTab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home"
-                        role="tab" aria-controls="home" aria-selected="true">Home</a>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" 
-                        role="tab" aria-controls="profile" aria-selected="false">Profile</a>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" 
-                        role="tab" aria-controls="contact" aria-selected="false">Contact</a>
-                        </li>
-                    </ul>
-                    <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+    <section class="section-biography">
+        <div class="container-outer">
+            <div class="row-outer">
+                <div class="col-md-10 offset-md-1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 text-left">
+                                <h3><span>Yana</span><br>Mitlitska</h3>
+                                <p>About Yana Mitlitska Yana
+                                    <br><br>
+                                Yana Mitlitska was born in Kyiv, Ukraine. After she had graduated from an Art School, 
+                                she founded an art studio. Being just a hobby at the beginning, it consumed Yana totally very fast.
+                                Nowadays Yana is skilled artist with about 10 years of experience in painting. 
+                                Currently she is working in an art studio in Kyiv.
+                                    <br><br>
+                                During her career she collaborated with famous interior designers and painted about 50 oil canvases 
+                                for appartments in famous Turkey Hotel "Orka Sunrise". In addition her art works presented
+                                on exhibitions in Ukraine, Ireland and Turkey. Being fully dedicated to the craft of painting,
+                                she creates unique art works and can follow your way of
+                                    <br><br>
+                                More ...
+                                </p>
+                            </div>
+                            <!-- /.col-12 text-left-->   
+                        </div>
+                        <!-- /.row -->           
                     </div>
-                    <div class="pictures">
+                    <!-- /.container -->
+                </div>
+                <!-- /.col-md-12 -->
+            </div>
+            <!-- /.row-outer -->
+        </div>
+        <!-- /.container-outer -->
+    </section>
+    <!-- /.section-biography -->
+
+
+    <section class="section-gallery">
+        <div class="container">
+            <div class="row">
+                <h3 class="col-12">Art Gallery</h3>
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item col-4" role="presentation">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home"
+                    role="tab" aria-controls="home" aria-selected="true">Home</a>
+                    </li>
+                    <li class="nav-item col-4" role="presentation">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" 
+                    role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                    </li>
+                    <li class="nav-item col-4" role="presentation">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" 
+                    role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                         <div class="col-12">
                             <a href="#">
                                 <img src="img/desktop_photo/1.png" alt="">
@@ -133,59 +133,67 @@
                             </a>
                         </div>
                     </div>
-                    <!-- /.pictures -->
-                    <button class="btn open-gallery">
-                        <a href="#">View All</a>
-                    </button>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
                 </div>
-                <!-- /.row -->
+                
+                <button class="btn open-gallery col-12">
+                    <a href="#">View All</a>
+                </button>
             </div>
-            <!-- /.container -->
-        </section>
-        <!-- /.section-gallery -->
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.section-gallery -->
 
 
-        <section class="section-message">
-            <div class="container">
-                <div class="row">
+    <section class="section-message">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
                     <h3>Contact me</h3>
-                    <input class="full-name" type="text" placeholder="Full Name">
-                    <input class="email" type="text" placeholder="Email address">
-                    <input class="message" type="text" placeholder="Your message">\
+                    <div class="row">
+                        <input class="full-name col-6" type="text" placeholder="Full Name">
+                        <input class="email col-6" type="text" placeholder="Email address">
+                        <input class="message col-12" type="text" placeholder="Your message">
+                    </div>
                     <button class="btn send-message">
                         <a href="#">Send</a>
                     </button>
                 </div>
-                <!-- /.row -->
             </div>
-            <!-- /.container -->
-        </section>
-        <!-- /.section-message -->
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.section-message -->
 
 
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-6">
-                        <h2>Yana Mitlitska</h2>
-                    </div>
-                    <div class="col-6">
-                        <ul>
-                            <li>Linkedin: Yana Mitlitska</li>
-                            <li>Behance: Yana Mitlitska</li>
-                            <li>Etsy: MitlitskaGallery</li>
-                            <li>Instagram: @yana.mitl</li>
-                            <li>+380 (50) 14-88-719</li>
-                            <li>mvaleryanova@gmail.com</li>
-                        </ul>
-                    </div>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6 d-none d-md-block">
+                    <h2>Yana Mitlitska</h2>
                 </div>
-                <!-- /.row -->
+                <div class="col-6 m-auto">
+                    <ul>
+                        <li>Linkedin: Yana Mitlitska</li>
+                        <li>Behance: Yana Mitlitska</li>
+                        <li>Etsy: MitlitskaGallery</li>
+                        <li>Instagram: @yana.mitl</li>
+                        <li>+380 (50) 14-88-719</li>
+                        <li>mvaleryanova
+                            @gmail.com</li>
+                    </ul>
+                </div>
             </div>
-            <!-- /.container -->
-        </footer>
-        <!-- /.footer -->
-    </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </footer>
+    <!-- /.footer -->
+
 
 
 
