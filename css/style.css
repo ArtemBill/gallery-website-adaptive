@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600;700&display=swap');
 
-
 body {
     font-family: 'Comfortaa', cursive;
     min-width: 320px;
     color: #000000;
 }
+
+/*.container {*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*}*/
 
 header,
 footer {
@@ -37,7 +41,7 @@ img {
 
 .main-header {
     background: url(../img/desktop_photo/photo.png)  top center no-repeat;
-    background-size: 100%;
+    background-size: cover;
     min-height: 600px;
     position: relative;
     z-index: -5;
@@ -70,15 +74,10 @@ img {
     font-size: 27px;
 }
 
-
-
 /*===========================.section-biography===============*/
 
 .section-biography .container {
-    width: 80%;
     background-color: #F4F0EC;
-    z-index: 5;
-    margin-top: -470px;
 }
 
 .section-biography span {
@@ -101,8 +100,6 @@ img {
     padding: 20px;
 }
 
-
-
 /*===========================.section-gallery===============*/
 
 .section-gallery .nav-link{
@@ -114,56 +111,27 @@ img {
     border-bottom: 5px solid #AE3F3D;
 }
 
-
-
-
-/*===========================.section-gallery===============*/
-
-
-
-
-
-
-
 /*===========================footer===============*/
 
 footer ul li {
     list-style-type: none;
 }
 
-
-
-
-
-
-
-
-
-
 @media only screen and (min-width: 420px) {
     .section-biography .container {
-        width: 80%;
         background-color: #F4F0EC;
-        z-index: 5;
-        margin-top: -425px;
     }
 }
 
 @media only screen and (min-width: 520px) {
     .section-biography .container {
-        width: 80%;
         background-color: #F4F0EC;
-        z-index: 5;
-        margin-top: -387px;
     }
 }
 
 @media only screen and (min-width: 670px) {
     .section-biography .container {
-        width: 80%;
         background-color: #F4F0EC;
-        z-index: 5;
-        margin-top: -330px;
     }
 }
 
@@ -195,6 +163,32 @@ footer ul li {
 }
 
 @media only screen and (min-width: 1200px) {
+    main {
+        height: 2801px;
+        min-height: 2801px;
 
+        position: relative;
+        background: #F8F8FA;
+    }
+
+    main .container-main {
+        width: 1184px;
+        max-width: 1184px;
+        height: 1668px;
+        max-height: 1668px;
+
+        background: #FFFFFF;
+        margin: auto;
+
+        padding: 48px 148px;
+
+        filter: drop-shadow(0px 4px 90px rgba(0, 0, 0, 0.15));
+        /*border: transparent;*/
+        /*border: 1px solid black;*/
+
+        position: absolute;
+        top: -3%;
+        left: 0;
+        right: 0;
+    }
 }
-
