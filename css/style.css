@@ -11,10 +11,7 @@ body {
 /*    margin: 0;*/
 /*}*/
 
-header,
-footer {
-    margin: 0;
-}
+ 
 
 img {
     width: 100%;
@@ -181,8 +178,66 @@ hr {
     background: rgba(65, 68, 77, 0.5);
 }
 
+
+/*===========================.section-message===============*/
+
+.section-message {
+    margin-bottom: 390px;
+    background: #fff;
+}
+
+
+.section-message .full-name,
+.email,
+.message {
+    border: 1px solid #000000;
+    font-size: 14px;
+    height: 42px;
+}
+
+.section-message .btn {
+    display: block;
+    margin: 20px auto;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: #023F6D;
+    width: 190px;
+    height: 37px;
+    border-radius: 0;
+    
+}
+
+.section-message a {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
 /*===========================footer===============*/
 
+
+
+footer {
+    background: #41444D;
+    position: absolute;
+    bottom: 0%;
+    left: -40px;
+    right: 0;
+    width: 375px;
+    color: #fff;
+    height: 500px;
+    z-index: -5;
+}
+
+footer span {
+    display: none;
+}
 footer ul li {
     list-style-type: none;
 }
