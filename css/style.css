@@ -176,7 +176,7 @@ img {
 }
 
 hr {
-    width: 379px;
+    width: 296px;
     height: 3px;
     background: rgba(65, 68, 77, 0.5);
 }
@@ -187,13 +187,13 @@ footer ul li {
     list-style-type: none;
 }
 
-@media only screen and (max-width: 320px) {
-    
-}
 
-@media only screen and (min-width: 320px)  and (max-width: 768px) {
-    
-}
+
+
+
+
+
+
 
 @media only screen and (min-width: 768px) {
     .main-header,
@@ -228,6 +228,13 @@ footer ul li {
     }
     .section-gallery .row {
         width: 526px;
+    }
+    .section-gallery .tab-content {
+        width: 526px;
+        margin-left: 11px;
+    }
+    hr {
+        width: 379px;
     }
     
 
@@ -276,4 +283,9 @@ footer ul li {
     .section-gallery img {
         width: 291px;
     }
+    .section-gallery .tab-content {
+        width: 888px;
+        margin-left: -25px;
+    }
+    
 }
