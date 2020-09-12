@@ -1,180 +1,254 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/mobile.css">
-    <link rel="stylesheet" media="(min-width: 768px)" href="css/tablet.css">
-    <link rel="stylesheet" media="(min-width: 1200px)" href="css/desktop.css">
-    <title>Yana's site</title>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Сайт Яны 2</title>
+  </head>
 <body>
-    <div class="container">
-        <header>
-            <section class="section-name">
-                <nav class="navbar">
-                    <input type="search" placeholder="Search">
-                    <a href="#">Gallery</a>
-                    <a href="#">Delivery</a>
-                    <a href="#">About me</a>
-                    <a href="#">Contacts</a>
-                </nav>
-                <!-- /.navbar -->
-                <h2>Yana Mitlitska</h2>
-            </section>
-            <!-- /.section-name -->
-
-            <section class="section-header-photo">
-                <img src="img/desktop_photo/photo.png" alt="Yana">
-            </section>
-            <!-- /.section-header-photo -->
-        </header>
-
-
-        <section class="section-biography">
-            <div class="container">
+    <div class="container-fluid">
+        <div class="row">
+            <header class="header col-12 align-items-start">
                 <div class="row">
-                    <div class="col-12">
-                        <h3>Yana Mitlitska</h3>
-                        <p>About Yana Mitlitska Yana</p>
-                        <p>Yana Mitlitska was born in Kyiv, Ukraine. After she had graduated from an Art School, 
-                        she founded an art studio. Being just a hobby at the beginning, it consumed Yana totally very fast.
-                        Nowadays Yana is skilled artist with about 10 years of experience in painting. 
-                        Currently she is working in an art studio in Kyiv.</p>
-                        <p>During her career she collaborated with famous interior designers and painted about 50 oil canvases 
-                        for appartments in famous Turkey Hotel "Orka Sunrise". In addition her art works presented
-                        on exhibitions in Ukraine, Ireland and Turkey. Being fully dedicated to the craft of painting,
-                        she creates unique art works and can follow your way of</p>
-                        <p>More ...</p>
+                    <div class="dark-bg col-12">
+                        <nav class="navbar navbar-expand-md">
+                            <a class="navbar-brand" href="#"></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="fas fa-bars"></i>
+                            </button>
+            
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#">Gallery<span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Delivery</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contacts</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">About me</a>
+                                    </li>
+                                </ul>
+                                <form class="form-inline my-2 my-lg-0">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                </form>
+                            </div>
+                        </nav>
+                        <h2 class="text-center">Mitlitska</h2>
                     </div>
+                    <!-- /.container-fluid dark-bg -->
                 </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </section>
-        <!-- /.section-biography -->
+                <!-- /.row background -->
+
+            </header>
 
 
-        <section class="section-gallery">
-            <div class="container">
-                <div class="row">
-                    <h3 class="col-12">Art Gallery</h3>
-                    <ul class="nav nav-tabs col-12" id="myTab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home"
-                        role="tab" aria-controls="home" aria-selected="true">Home</a>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" 
-                        role="tab" aria-controls="profile" aria-selected="false">Profile</a>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" 
-                        role="tab" aria-controls="contact" aria-selected="false">Contact</a>
-                        </li>
-                    </ul>
-                    <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+            <main class="section-main col-12">
+                <section class="section-biography">
+                    <div class="container-outer">
+                        <div class="container-inner">
+                            <div class="row">
+                                <h3 class="col-12 col-md-4 text-center mt-3"><span>Yana</span>
+                                    <br>
+                                    Mitlitska
+                                </h3>
+                                <div class="col-12 col-md-8 text-left">
+                                    <p> About Yana Mitlitska
+                                        <br><br>
+                                        Yana Mitlitska was born in Kyiv, Ukraine. After she had graduated from an Art School,
+                                        she founded an art studio. Being just a hobby at the beginning, it consumed Yana totally very fast.
+                                        Nowadays Yana is skilled artist with about 10 years of experience in painting.
+                                        Currently she is working in an art studio in Kyiv.
+                                        <br><br>
+                                        During her career she collaborated with famous interior designers and painted about 50 oil canvases
+                                        for appartments in famous Turkey Hotel "Orka Sunrise". In addition her art works presented
+                                        on exhibitions in Ukraine, Ireland and Turkey. Being fully dedicated to the craft of painting,
+                                        she creates unique art works and can follow your way of
+                                        <br><br>
+                                        <span class="read-desktop">
+                                        thinking to create a special composition. She can bring your imagination to a canvas.
+                                        Yana is known for her shining nature and her ability to adapt to the modern trends and
+                                        rapidly changing world. The colorfulness of the art works is characterized by mix of colors creating
+                                        depth and a wide range of the color scale, light and shadow, composition and flow. It's achieved by
+                                        the years of combining different styles in her personal, unique vision.
+                                        </span>
+                                        More ...
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                        <!-- /.container-inner -->
+
+                        <section class="section-gallery">
+                            <div class="container">
+                                <div class="row">
+                                    <h4 class="col-12 text-center mt-5">Art Gallery</h4>
+                                </div>
+                                <ul class="nav nav-tabs justify-content-center mt-5" id="myTab" role="tablist">
+                                    <div class="row justify-content-around">
+                                        <div class="col">
+                                            <li class="nav-item" role="presentation">
+                                                <a class="nav-link text-center active" id="home-tab" data-toggle="tab" href="#home"
+                                                role="tab" aria-controls="home" aria-selected="true">All</a>
+                                            </li>
+                                        </div>
+                                        <div class="col">
+                                            <li class="nav-item" role="presentation">
+                                                <a class="nav-link text-center" id="profile-tab" data-toggle="tab" href="#profile"
+                                                role="tab" aria-controls="profile" aria-selected="false">For sale</a>
+                                            </li>
+                                        </div>
+                                        <div class="col">
+                                            <li class="nav-item" role="presentation">
+                                                <a class="nav-link text-center" id="contact-tab" data-toggle="tab" href="#contact"
+                                                role="tab" aria-controls="contact" aria-selected="false">To Order</a>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </ul>
+        
+                                <div class="tab-content mt-5" id="myTabContent">
+                                    <div class="tab-pane fade show active justify-content-center" id="home" role="tabpanel" 
+                                    aria-labelledby="home-tab">
+                                        <div class="row text-center">
+                                            <div class="col-md-6 col-lg-4 gallery-item">
+                                                <a href="#">
+                                                    <img src="img/desktop_photo/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 col-lg-4 gallery-item">
+                                                <a href="#">
+                                                    <img src="img/desktop_photo/2.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 col-lg-4 gallery-item">
+                                                <a href="#">
+                                                    <img src="img/desktop_photo/3.png" alt="">
+                                                </a>
+                                            </div>
+                                            
+                                            <div class="col-md-6 col-lg-4  gallery-item mobile-none">
+                                                <a href="#">
+                                                    <img src="img/desktop_photo/4.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 col-lg-4 gallery-item mobile-none">
+                                                <a href="#">
+                                                    <img src="img/desktop_photo/5.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6  col-lg-4 gallery-item mobile-none">
+                                                <a href="#">
+                                                    <img src="img/desktop_photo/6.png" alt="">
+                                                </a>
+                                            </div>
+                                            
+                                        </div> 
+                                    </div>
+                                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                                </div>
+        
+                                <a class="btn" href="#" role="button">View all</a>
+                                
+                                <hr>
+    
+                            </div>
+                            <!-- /.container -->
+                        </section>
+                        <!-- /.section-gallery -->
                     </div>
-                    <div class="pictures">
-                        <div class="col-12">
-                            <a href="#">
-                                <img src="img/desktop_photo/1.png" alt="">
-                            </a>
+                    <!-- /.container-outer -->
+                </section>
+                <!-- /.secion-biography -->
+
+                </main>
+
+
+                <footer class="footer col-12 align-items-end">
+                    <section class="section-contact">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="container">
+                                        <div class="row">
+                                            <h5 class="col-12 text-center mt-5">Contact Me</h5>
+                                            <div class="col-12 text-center">
+                                                <form>
+                                                    <div class="form-row">
+                                                        <div class="col">
+                                                            <input type="text" class="form-control" placeholder="Full name">
+                                                        </div>
+                                                        <div class="col">
+                                                            <input type="text" class="form-control" placeholder="Email">
+                                                        </div>
+                                                        <div class="w-100"></div>
+                                                        <div class="col mt-3">
+                                                            <input type="text" class="form-control" placeholder="Your Message">
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <a class="btn col-8 mt-5" href="#" role="button">Send</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--col-10-->
+                            </div>
                         </div>
-                        <div class="col-12">
-                            <a href="#">
-                                <img src="img/desktop_photo/2.png" alt="">
-                            </a>
+                        <!-- /.container -->
+                    </section>
+                    <!-- /.section-contact -->
+
+                    <section class="section-soc-networks">
+                        <div class="container">
+                            <div class="row align-items-end">
+                                <h3 class="col-md-6 mobile-none text-center align-self-center"><span>Yana</span> Mitlitska</h3>
+                                <div class="col-12  col-md-6 text-center">
+                                    <p>
+                                    mvaleryanova @gmail.com<br>
+                                    Behance: Yana Mitlitska <br>
+                                    Etsy: MitlitskaGallery <br>
+                                    Instagram: @yana.mitl <br>
+                                    +380 (50) 14-88-719 <br>
+                                    Linkedin: Yana Mitlitska
+                                    </p>
+                                    <h3 class="text-center tablet-none">Mitlitska</h3>
+                                </div>
+                                
+                            </div>
                         </div>
-                        <div class="col-12">
-                            <a href="#">
-                                <img src="img/desktop_photo/3.png" alt="">
-                            </a>
-                        </div>
-                        <div class="col-12">
-                            <a href="#">
-                                <img src="img/desktop_photo/4.png" alt="">
-                            </a>
-                        </div>
-                        <div class="col-12">
-                            <a href="#">
-                                <img src="img/desktop_photo/5.png" alt="">
-                            </a>
-                        </div>
-                        <div class="col-12">
-                            <a href="#">
-                                <img src="img/desktop_photo/6.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    <!-- /.pictures -->
-                    <button class="btn open-gallery">
-                        <a href="#">View All</a>
-                    </button>
-                </div>
-                <!-- /.row -->
+                    </section>
+                    <!-- /.section-soc-networks --> 
+                        
+                </footer>
             </div>
-            <!-- /.container -->
-        </section>
-        <!-- /.section-gallery -->
-
-
-        <section class="section-message">
-            <div class="container">
-                <div class="row">
-                    <h3>Contact me</h3>
-                    <input class="full-name" type="text" placeholder="Full Name">
-                    <input class="email" type="text" placeholder="Email address">
-                    <input class="message" type="text" placeholder="Your message">\
-                    <button class="btn send-message">
-                        <a href="#">Send</a>
-                    </button>
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </section>
-        <!-- /.section-message -->
-
-
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-6">
-                        <h2>Yana Mitlitska</h2>
-                    </div>
-                    <div class="col-6">
-                        <ul>
-                            <li>Linkedin: Yana Mitlitska</li>
-                            <li>Behance: Yana Mitlitska</li>
-                            <li>Etsy: MitlitskaGallery</li>
-                            <li>Instagram: @yana.mitl</li>
-                            <li>+380 (50) 14-88-719</li>
-                            <li>mvaleryanova@gmail.com</li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </footer>
-        <!-- /.footer -->
-    </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
 
 
 
 
 
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
-integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
-integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
 integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
