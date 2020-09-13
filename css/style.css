@@ -120,7 +120,11 @@ img {
     color: #000000;
     font-size: 14px;
     text-transform: uppercase;
+    height: 85px;
      
+}
+.section-gallery .nav-item {
+    height: 85px;
 }
 .section-gallery .nav-link.active {
     border-bottom: 5px solid #AE3F3D;
