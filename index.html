@@ -96,21 +96,115 @@
                                 <div class="row">
                                     <h4 class="col-12 text-center mt-5">Art Gallery</h4>
                                 </div>
-                                <ul class="nav nav-tabs justify-content-center mt-5" id="myTab" role="tablist">
-                                    <div class="row justify-content-around">
-                                        <div class="col">
+                                <ul class="nav nav-tabs text-center mt-5" id="myTab" role="tablist">
+                                    <li class="nav-item item" role="presentation">
+                                        <a class="nav-link text-center active" id="home-tab" data-toggle="tab" href="#home" role="tab" 
+                                        aria-controls="home" aria-selected="true">All</a>
+                                    </li>
+                                
+                                    <li class="nav-item item" role="presentation">
+                                        <a class="nav-link text-center" id="profile-tab" data-toggle="tab" href="#profile" role="tab" 
+                                        aria-controls="profile" aria-selected="false">For Sale</a>
+                                    </li>
+                                
+                                    <li class="nav-item item" role="presentation">
+                                        <a class="nav-link text-center" id="contact-tab" data-toggle="tab" href="#contact" role="tab" 
+                                        aria-controls="contact" aria-selected="false">To order</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content mt-5" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                        <div class="photos">
+                                            <div class="photo-item">
+                                                <img src="img/desktop_photo/1.png" alt="">
+                                            </div>
+                                            <div class="photo-item">
+                                                <img src="img/desktop_photo/2.png" alt="">
+                                            </div>
+                                        
+                                            <div class="photo-item">
+                                                <img src="img/desktop_photo/3.png" alt="">
+                                            </div>
+                                            <div class="photo-item mobile-none">
+                                                <img src="img/desktop_photo/4.png" alt="">
+                                            </div>
+                                       
+                                            <div class="photo-item mobile-none">
+                                                <img src="img/desktop_photo/5.png" alt="">
+                                            </div>
+                                            <div class="photo-item mobile-none">
+                                                <img src="img/desktop_photo/6.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                        <div class="photos">
+                                            <div class="photo-item">
+                                                <img src="img/desktop_photo/1.png" alt="">
+                                            </div>
+                                            <div class="photo-item">
+                                                <img src="img/desktop_photo/2.png" alt="">
+                                            </div>
+                                        
+                                            <div class="photo-item">
+                                                <img src="img/desktop_photo/3.png" alt="">
+                                            </div>
+                                            <div class="photo-item mobile-none">
+                                                <img src="img/desktop_photo/4.png" alt="">
+                                            </div>
+                                       
+                                            <div class="photo-item mobile-none">
+                                                <img src="img/desktop_photo/5.png" alt="">
+                                            </div>
+                                            <div class="photo-item mobile-none">
+                                                <img src="img/desktop_photo/6.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                        <div class="photos">
+                                            <div class="photo-item">
+                                                <img src="img/desktop_photo/1.png" alt="">
+                                            </div>
+                                            <div class="photo-item">
+                                                <img src="img/desktop_photo/2.png" alt="">
+                                            </div>
+                                        
+                                            <div class="photo-item">
+                                                <img src="img/desktop_photo/3.png" alt="">
+                                            </div>
+                                            <div class="photo-item mobile-none">
+                                                <img src="img/desktop_photo/4.png" alt="">
+                                            </div>
+                                       
+                                            <div class="photo-item mobile-none">
+                                                <img src="img/desktop_photo/5.png" alt="">
+                                            </div>
+                                            <div class="photo-item mobile-none">
+                                                <img src="img/desktop_photo/6.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <a class="btn" href="#" role="button">View all</a>
+
+                                
+                                <!-- <ul class="nav nav-tabs justify-content-center mt-5" id="myTab" role="tablist">
+                                    <div class="menu">
+                                        <div class="item">
                                             <li class="nav-item" role="presentation">
                                                 <a class="nav-link text-center active" id="home-tab" data-toggle="tab" href="#home"
                                                 role="tab" aria-controls="home" aria-selected="true">All</a>
                                             </li>
                                         </div>
-                                        <div class="col">
+                                        <div class="item">
                                             <li class="nav-item" role="presentation">
                                                 <a class="nav-link text-center" id="profile-tab" data-toggle="tab" href="#profile"
                                                 role="tab" aria-controls="profile" aria-selected="false">For sale</a>
                                             </li>
                                         </div>
-                                        <div class="col">
+                                        <div class="item">
                                             <li class="nav-item" role="presentation">
                                                 <a class="nav-link text-center" id="contact-tab" data-toggle="tab" href="#contact"
                                                 role="tab" aria-controls="contact" aria-selected="false">To Order</a>
@@ -122,46 +216,32 @@
                                 <div class="tab-content mt-5" id="myTabContent">
                                     <div class="tab-pane fade show active justify-content-center" id="home" role="tabpanel" 
                                     aria-labelledby="home-tab">
-                                        <div class="row text-center">
-                                            <div class="col-md-6 col-lg-4 gallery-item">
-                                                <a href="#">
-                                                    <img src="img/desktop_photo/1.png" alt="">
-                                                </a>
+                                        <div class="photos">
+                                            <div class="photo-item">
+                                                <img src="img/desktop_photo/1.png" alt="">
                                             </div>
-                                            <div class="col-md-6 col-lg-4 gallery-item">
-                                                <a href="#">
-                                                    <img src="img/desktop_photo/2.png" alt="">
-                                                </a>
+                                            <div class="photo-item">
+                                                <img src="img/desktop_photo/2.png" alt="">
                                             </div>
-                                            <div class="col-md-6 col-lg-4 gallery-item">
-                                                <a href="#">
-                                                    <img src="img/desktop_photo/3.png" alt="">
-                                                </a>
+                                        
+                                            <div class="photo-item">
+                                                <img src="img/desktop_photo/3.png" alt="">
                                             </div>
-                                            
-                                            <div class="col-md-6 col-lg-4  gallery-item mobile-none">
-                                                <a href="#">
-                                                    <img src="img/desktop_photo/4.png" alt="">
-                                                </a>
+                                            <div class="photo-item mobile-none">
+                                                <img src="img/desktop_photo/4.png" alt="">
                                             </div>
-                                            <div class="col-md-6 col-lg-4 gallery-item mobile-none">
-                                                <a href="#">
-                                                    <img src="img/desktop_photo/5.png" alt="">
-                                                </a>
+                                       
+                                            <div class="photo-item mobile-none">
+                                                <img src="img/desktop_photo/5.png" alt="">
                                             </div>
-                                            <div class="col-md-6  col-lg-4 gallery-item mobile-none">
-                                                <a href="#">
-                                                    <img src="img/desktop_photo/6.png" alt="">
-                                                </a>
+                                            <div class="photo-item mobile-none">
+                                                <img src="img/desktop_photo/6.png" alt="">
                                             </div>
-                                            
-                                        </div> 
+                                        </div>
                                     </div>
                                     <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
                                     <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
-                                </div>
-        
-                                <a class="btn" href="#" role="button">View all</a>
+                                </div> -->
                                 
                                 <hr>
     
